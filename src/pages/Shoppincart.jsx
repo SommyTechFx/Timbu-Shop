@@ -66,7 +66,7 @@ function Shoppincart() {
                 <CiTrash
                   style={{
                     color: "rgba(243, 89, 89, 1)",
-                    fontSize: "2rem",
+                    fontSize: "1.5rem",
                     alignItems: "center",
                   }}
                 />

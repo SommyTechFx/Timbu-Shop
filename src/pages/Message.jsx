@@ -73,9 +73,11 @@ function Message() {
             <p>$2,505.00</p>
           </div>
         </section>
-        <Link to="/">
-          <button className="click-proceed2">Continue shopping</button>
-        </Link>
+        <div className="proceed-btn2">
+          <Link to="/">
+            <button className="click-proceed6">Continue shopping</button>
+          </Link>
+        </div>
       </section>
     </section>
   );
