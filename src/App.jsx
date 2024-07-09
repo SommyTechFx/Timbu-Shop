@@ -7,6 +7,7 @@ import Productdetails from "./pages/Productdetails.jsx";
 import Shoppincart from "./pages/Shoppincart.jsx";
 import Checkout from "./pages/Checkout.jsx/";
 import Products from "./pages/Products.jsx";
+import Message from "./pages/Message.jsx";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
 
           <Route path="/shopping-cart" element={<Shoppincart />}></Route>
           <Route path="/form-details" element={<Checkout />}></Route>
+          <Route path="/thank-you" element={<Message />}></Route>
 
           <Route path="#" element={<Products />}></Route>
           <Route path="#" element={<Landingpage />}></Route>

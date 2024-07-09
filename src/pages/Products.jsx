@@ -1,7 +1,5 @@
-import { IoIosArrowRoundBack } from "react-icons/io";
-import { MdOutlineArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
-
+import "./../components/Styles/product.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import pic1 from "./../images/trendingimages/pic1.png";
 import pic11 from "./../images/trendingimages/pic11.png";
@@ -15,20 +13,21 @@ import pic7 from "./../images/trendingimages/pic7.png";
 function Products() {
   return (
     <>
-      <section className="product-direction">
-        <div className="pd1">
-          <h3>Home</h3>
-          <MdOutlineArrowRight className="icon" />
-          <p>Product </p>
-        </div>
-        <div className="pd2">
-          <p>Back</p>
-          <Link to="/">
-            <IoIosArrowRoundBack className="icon" />
-          </Link>
+      <section className="product-directionx">
+        <div className="pro-duct">
+          <h2>Products</h2>
         </div>
       </section>
-      <h2>Choose from our varieties of products...</h2>
+      <h2
+        style={{
+          fontSize: "2rem",
+          fontFamily: "PT Serif",
+          fontWeight: "700",
+          padding: "2rem",
+        }}
+      >
+        Choose from our varieties of products...
+      </h2>
       <section className="Total-div-container">
         <section className="trending-container">
           <div className="trending-item">

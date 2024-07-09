@@ -1,3 +1,8 @@
+.total-form-details {
+  display: grid;
+  gap: 15rem;
+  grid-template-columns: repeat(2, 2fr);
+}
 .name-email {
   display: flex;
 }
@@ -16,14 +21,40 @@
   border-radius: 8px;
 }
 
+.name-tag2 {
+  padding: 2rem;
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin: 2rem;
+  width: 75rem;
+  height: 7.1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.name-tag2 input {
+  border: none;
+  padding: 1rem;
+  width: 70rem;
+}
+
+.name-tag2 input::placeholder {
+  padding: 1rem;
+}
 .name-tag-img {
   font-size: 2rem;
   margin-right: 2px;
 }
+
 .name-tag input {
   border: none;
+  padding: 1rem;
+  width: 30rem;
 }
 
+.name-tag input::placeholder {
+  padding: 1rem;
+}
 .div-flex {
   display: flex;
 }
@@ -40,4 +71,147 @@
   line-height: 26.5px;
   text-align: left;
   color: rgba(209, 154, 100, 1);
+}
+.click-proceed {
+  margin-left: 10rem;
+}
+.click-proceed {
+  width: 386px;
+  height: 53px;
+  border: none;
+  padding: 11px 0px 10px 0px;
+  background-color: rgba(209, 154, 100, 1);
+  border-radius: 10px;
+  font-family: "PT Serif";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 31.8px;
+  color: rgba(255, 255, 255, 1);
+}
+.on-the {
+  margin: 2rem;
+}
+.on-the h3 {
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.8px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.on-the-way-out {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.on-the-way-out img {
+  width: 10rem;
+}
+.on-the-way-out h2 {
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.8px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+}
+.on-the-way-out-price {
+  padding: 1rem;
+}
+.on-the-way-out-price p {
+  font-family: " PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.8px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.36);
+}
+
+#each-price-x {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  .on-the {
+    width: 40rem;
+    padding: 1rem;
+  }
+  #underline2 {
+    width: 100%;
+  }
+  .total-form-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .click-proceed {
+    margin-left: 5rem;
+  }
+  .click-proceed {
+    width: 30rem;
+    height: 5rem;
+    border: none;
+    padding: 11px 0px 10px 0px;
+    background-color: rgba(209, 154, 100, 1);
+    border-radius: 10px;
+    font-family: "PT Serif";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 31.8px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .name-email,
+  .div-flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .name-tag {
+    padding: 2rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: 2rem;
+    width: 35.6rem;
+    height: 5.1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .name-tag2 {
+    padding: 2rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: 2rem;
+    width: 35.6rem;
+    height: 5.1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .name-tag2 input {
+    border: none;
+    padding: 1rem;
+    width: 70rem;
+  }
+
+  .name-tag2 input::placeholder {
+    padding: 1rem;
+  }
+  .name-tag-img {
+    font-size: 2rem;
+    margin-right: 2px;
+  }
+
+  .name-tag input {
+    border: none;
+    padding: 1rem;
+    width: 30rem;
+  }
+
+  .name-tag input::placeholder {
+    padding: 1rem;
+  }
 }

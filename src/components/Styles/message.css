@@ -1,0 +1,202 @@
+.goodbybe-message {
+  text-align: center;
+  position: relative;
+  width: 50rem;
+  margin: 2rem;
+}
+.sub-goodbye-message {
+  padding: 2rem;
+  position: inherit;
+  width: 60rem;
+  height: 60rem;
+  left: 30rem;
+  border-radius: 1.5rem;
+  opacity: 0px;
+  border: 1px solid rgba(209, 154, 100, 0.65);
+}
+.goodbybe-message h3 {
+  position: inherit;
+  left: 30rem;
+  font-family: "PT Serif";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 44.8px;
+  letter-spacing: 0.02em;
+}
+.goodbybe-message h4 {
+  position: inherit;
+  left: 30rem;
+  font-family: "PT Serif";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 28px;
+}
+.sub-goodbye-message h1 {
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  letter-spacing: 0.02em;
+}
+.click-proceed2 {
+  margin-top: 2rem;
+  width: 606px;
+  height: 53px;
+  margin-left: 30rem;
+  padding: 11px 193px 10px 194px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  border: none;
+  background-color: rgba(209, 154, 100, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "PT Serif";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 26.5px;
+  text-align: left;
+}
+@media screen and (max-width: 900px) {
+  .click-proceed2 {
+    margin-top: 2rem;
+    width: 2rem;
+    margin-left: 4rem;
+    border-radius: 10px;
+    opacity: 0px;
+    border: none;
+    background-color: rgba(209, 154, 100, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "PT Serif";
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .goodbybe-message h3 {
+    position: sticky;
+  }
+  .goodbybe-message #bingo {
+    position: sticky;
+  }
+  .sub-goodbye-message {
+    position: sticky;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 15px;
+
+    border: 1px solid rgba(209, 154, 100, 0.65);
+  }
+}
+@media screen and (max-width: 630px) {
+  .goodbybe-message {
+    margin: 2rem;
+  }
+  .sub-goodbye-message {
+    padding: 2rem;
+
+    width: 40rem;
+    height: 60rem;
+
+    border-radius: 1.5rem;
+    opacity: 0px;
+    border: 1px solid rgba(209, 154, 100, 0.65);
+  }
+  .goodbybe-message h3 {
+    font-family: "PT Serif";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 44.8px;
+    letter-spacing: 0.02em;
+  }
+  .goodbybe-message h4 {
+    font-family: "PT Serif";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .sub-goodbye-message h1 {
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .goodbybe-message {
+    margin-left: 0;
+    display: contents;
+    border: 1px solid red;
+  }
+  .sub-goodbye-message {
+    padding: 0;
+    width: 30rem;
+    height: 60rem;
+    left: 0;
+    border-radius: 1.5rem;
+
+    border: 1px solid rgba(209, 154, 100, 0.65);
+  }
+  .goodbybe-message h3 {
+    position: none;
+    font-family: "PT Serif";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 44.8px;
+    letter-spacing: 0.02em;
+  }
+  .goodbybe-message h4 {
+    position: none;
+    left: 0;
+    font-family: "PT Serif";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .sub-goodbye-message h1 {
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* @media screen and (max-width: 350px) {
+  .goodbybe-message {
+    margin-left: 0;
+    display: contents;
+    border: 1px solid red;
+  }
+  .sub-goodbye-message {
+    padding: 0;
+    width: 20rem;
+    height: 60rem;
+    left: 0;
+    border-radius: 1.5rem;
+
+    border: 1px solid rgba(209, 154, 100, 0.65);
+  }
+  .goodbybe-message h3 {
+    position: none;
+    font-family: "PT Serif";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 44.8px;
+    letter-spacing: 0.02em;
+  }
+  .goodbybe-message h4 {
+    position: none;
+    left: 0;
+    font-family: "PT Serif";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .sub-goodbye-message h1 {
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: 0.02em;
+  }
+} */

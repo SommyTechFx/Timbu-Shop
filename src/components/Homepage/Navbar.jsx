@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const scrollToSection = (id) => {
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-  };
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -22,12 +20,14 @@ function Navbar() {
       <div className={`navbar-search ${isMenuOpen ? "open" : ""}`}>
         <ul className="navbar-list">
           <Link className="links" to="/">
-            <li>Home</li>
+            <li>Products</li>
           </Link>
-
-          <li onClick={() => scrollToSection("category")}>Category</li>
-          <li onClick={() => scrollToSection("trending")}>Trending now</li>
-          <li onClick={() => scrollToSection("About")}>About Us</li>
+          <Link className="links" to="/shopping-cart">
+            <li>Cart</li>
+          </Link>
+          <Link className="links" to="/form-details">
+            <li>Check out</li>
+          </Link>
         </ul>
       </div>
       <div className="navbar-icons">

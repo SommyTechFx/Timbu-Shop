@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./../components/Styles/Checkout.css";
 import { BsTelephone } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
+import pic6 from "./../images/productimages/pic6.png";
 function checkout() {
   return (
     <section>
@@ -22,7 +23,7 @@ function checkout() {
           </Link>
         </div>
       </section>
-      <section>
+      <section className="total-form-details">
         <section>
           <div className="total-name-email">
             <label
@@ -57,7 +58,7 @@ function checkout() {
               Shipping Address
             </label>
             <br />
-            <div className="name-tag">
+            <div className="name-tag2">
               <CiLocationOn className="name-tag-img" />
               <input type="text" placeholder="Enter your house address" />
             </div>
@@ -82,29 +83,66 @@ function checkout() {
               </label>
             </div>
             <div style={{ display: "flex", gap: "2rem", padding: "2rem" }}>
-              <label>
+              <label
+                style={{
+                  fontSize: "2rem",
+                  fontweight: "400",
+                  fontFamily: "PT Serif",
+                }}
+              >
                 <input type="checkbox" name="subscribe" value="newsletter" />
-                Save this address
+                Pay with card
               </label>
-              <label>
+              <label
+                style={{
+                  fontSize: "2rem",
+                  fontweight: "400",
+                  fontFamily: "PT Serif",
+                }}
+              >
                 <input type="checkbox" name="subscribe" value="newsletter" />
                 Save this address
               </label>
             </div>
           </div>
-          <Link>
-            <button
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              Proceed
-            </button>
+          <Link
+            to="/thank-you"
+            className="
+          links"
+          >
+            <button className="click-proceed">Proceed</button>
           </Link>
         </section>
-        <section></section>
+        <section className="on-the">
+          <h3>Your Order</h3>
+          <div className="on-the-way-out">
+            <img src={pic6} alt="" />
+            <div className="on-the-way-out-price">
+              <h2>Diamond cut Ring</h2>
+              <p>$2,500</p>
+            </div>
+          </div>
+          <hr id="underline2" />
+          <section id="on-the-way-out-price-list">
+            <div id="each-price-x">
+              <h4>Subtotal</h4>
+              <p>$2,500.00</p>
+            </div>
+            <div id="each-price-x">
+              <h4>Delivery Fee</h4>
+              <p>$10.00</p>
+            </div>
+            <div id="each-price-x">
+              <h4>Discount</h4>
+              <p>-$5.00</p>
+            </div>
+          </section>
+          <hr id="underline2" />
+          <div id="each-price-x">
+            <h4>TOTAL</h4>
+            <p>$2,505.00</p>
+          </div>
+        </section>
       </section>
     </section>
   );

@@ -23,12 +23,14 @@ function Shoppincart() {
         </div>
       </section>
       <section id="product-price-quantity">
-        <div>
+        <div className="Total-plus-total">
           <div id="checking-out">
             <h3>Product</h3>
-            <h3>Price</h3>
+            <div id="checking-out-h3">
+              <h3>Price</h3>
 
-            <h3>Quantity</h3>
+              <h3>Quantity</h3>
+            </div>
           </div>
           <hr id="underline1" />
           <section id="add-to-cart">
@@ -36,16 +38,39 @@ function Shoppincart() {
               <img src={pic6} alt="" />
               <p>Diamond cut Ring</p>
             </div>
-            <p>$2,500</p>
+
             <div id="add-cart-calculations">
-              <button>-&nbsp; 1&nbsp; +</button>
-              <CiTrash
-                style={{
-                  color: "rgba(243, 89, 89, 1)",
-                  fontSize: "2rem",
-                  alignItems: "center",
-                }}
-              />
+              <p>$2,500</p>
+              <div>
+                <button>-&nbsp; 1&nbsp; +</button>
+                <CiTrash
+                  style={{
+                    color: "rgba(243, 89, 89, 1)",
+                    fontSize: "2rem",
+                    alignItems: "center",
+                  }}
+                />
+              </div>
+            </div>
+          </section>
+          <section id="add-to-cart">
+            <div id="add-to-cart-img">
+              <img src={pic6} alt="" />
+              <p>Diamond cut Ring</p>
+            </div>
+
+            <div id="add-cart-calculations">
+              <p>$2,500</p>
+              <div>
+                <button>-&nbsp; 1&nbsp; +</button>
+                <CiTrash
+                  style={{
+                    color: "rgba(243, 89, 89, 1)",
+                    fontSize: "2rem",
+                    alignItems: "center",
+                  }}
+                />
+              </div>
             </div>
           </section>
         </div>
